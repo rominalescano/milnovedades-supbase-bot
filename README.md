@@ -17,7 +17,7 @@ This project implements a product synchronization system using **Supabase Native
     - Cleans up stale records (products no longer in the feed).
 4.  **Scheduler**: `pg_cron` extension in the database triggers the Edge Function every hour via HTTP POST.
 
----
+----
 
 ## Local Development
 
